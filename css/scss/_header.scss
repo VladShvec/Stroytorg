@@ -34,7 +34,7 @@ max-width: 1832px;
 }
     .search_button{
     margin-left: -33px;
-    background-image: url(/img/icons/search_icon.png);
+    background-image: url(../img/icons/search_icon.png);
     background-size: 81%;
     background-repeat: no-repeat;
     width: 50px;
@@ -138,7 +138,7 @@ font-family: 'Gotham Pro black';
     display: inline-block;
     position: absolute;
     width: 50px;
-    background-image: url(/img/icons/phone_icon.png);
+    background-image: url(../img/icons/phone_icon.png);
     height: 50px;
     left: 26px;
     top: 3px;
@@ -167,7 +167,7 @@ font-family: 'Gotham Pro black';
     line-height: 86px;
     color: #fff;
         }
-        span{
+        span{ 
             color: #e71818;
         }
         .text_block{
@@ -180,7 +180,7 @@ font-family: 'Gotham Pro black';
     
 }
 .wrapper{
-    background-image: url(/img/main_photo.jpg);
+    background-image: url(../img/main_photo.jpg);
     height: 11000px;
     background-repeat: no-repeat;
     background-position: 0 0;

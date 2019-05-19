@@ -1,4 +1,5 @@
 
 $('.slider').slick({
-    arrows: true
+    arrows: true,
+    dots: true
 });

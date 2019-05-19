@@ -156,9 +156,19 @@ font-family: 'Gotham Pro black';
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+        .afternextarrow{
+    position: absolute;
+    right: -329px;
+    color: #fff;
+    top: 213px;
+    font-size: 14px;
+    font-family: 'Gotham Pro black';
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
         h1{
     top: 30.9%;
-    left: 21.5%;
+    left:0;
     position: relative;
     font-family: 'Gotham Pro black';
     font-size: 78px;
@@ -171,12 +181,79 @@ font-family: 'Gotham Pro black';
             color: #e71818;
         }
         .text_block{
-            position: relative;
-            top: 31%;
+    position: relative;
+    top: 31%;
+    max-width: 1147px;
+    margin: 0 auto;
+            .button{
+                   top: -18px;
+    left: 4px;
+            }
         }
     }
 }
 .button{
+    box-sizing: border-box;
+    min-width: 151px;
+    padding: 0 32px;
+    height: 46px;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    color: #4d4948;
+    line-height: 44px;
+    position: relative;
+    border-radius: 20px;
+    font-family: "calibri";
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slick-dots{
+bottom: 88px;
+    left: -425px;
+    li{
+        width: 58px;
+        button:before{
+            font-family: 'slick';
+    font-size: 19.4px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    opacity: 1;        
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+        }
+        
+    }
+    
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: transparent;
+    background: url(../img/icons/active_dote.png) no-repeat;
+    height: 64px;
+    width: 37px;
+    top: -12px;
+}
+.slick-next{
+        right: 272px;
+    top: 586px;
+    position: absolute;
+    z-index: 6;
+       
+}
+.slick-prev {
+    left: 100px;
+    top: 595px;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    z-index: 6;
     
 }
 .wrapper{
@@ -185,4 +262,24 @@ font-family: 'Gotham Pro black';
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100%;
+}
+ .slick-next:before {
+    content: '';
+    background: url(../img/icons/right_arrow.png) no-repeat;
+    background-size: 31px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+}
+.slick-prev:before {
+    content: '';
+    background: url(../img/icons/left_arrow.png) no-repeat;
+    background-size: 31px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
 }

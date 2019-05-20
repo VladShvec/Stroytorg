@@ -28,9 +28,9 @@ max-width: 1832px;
     background-color: #fff;
     border: none;
     border-radius: 20px;
-        background-color: #2e2919;     
-            padding-left: 24px;
-    color: #6c685d;    
+    background-color: #2e2919;     
+     padding-left: 24px;
+   color: #fff;
 }
     .search_button{
     margin-left: -33px;
@@ -73,7 +73,7 @@ nav{
     border-radius: 50%;
     background-color: #fff;
     right: -22px;
-    top: 6px;
+    top: 5px;
         }    
         a{
             color: #fff;
@@ -97,12 +97,12 @@ nav{
     top: 2px;
     margin-right: 50px;
     }    
-}
-.header_cont{
-display: inline-block;
+}  
+ .header_cont{
+    display: inline-block;
     position: relative;
     float: right;
-    right: -38px;
+    right: 5px;
     width: 249px;
     top: 22px;
     .cont {

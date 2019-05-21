@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Gotham Pro black';
+    font-family: 'GothamProblack';
     src: url('fonts/GothamPro-Black.woff2') format('woff2'),
         url('fonts/GothamPro-Black.woff') format('woff');
     font-weight: 900;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'Gotham Pro light';
+    font-family: 'GothamProlight';
     src: url('fonts/GothamPro-Light.woff2') format('woff2'),
         url('fonts/GothamPro-Light.woff') format('woff');
     font-weight: 300;
@@ -29,4 +29,30 @@
     font-weight: 500;
     font-style: normal;
 }
+/*
+@font-face {
+  font-family: '8277';
+  src: url('8277.eot');
+  src: url('8277.eot?#iefix') format('embedded-opentype'),
+       url('8277.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
 
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/Calibri.svg#Calibri') format('svg'),
+       url('fonts/Calibri.ttf') format('truetype'),
+       url(fonts/'Calibri.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TimesNewRomanPSMT';
+  src: url('fonts/TimesNewRomanPSMT.svg#TimesNewRomanPSMT') format('svg'),
+       url('fonts/TimesNewRomanPSMT.ttf') format('truetype'),
+       url('fonts/TimesNewRomanPSMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

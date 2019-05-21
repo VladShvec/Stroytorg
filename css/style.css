@@ -99,20 +99,26 @@ nav {
       color: #fff;
       font-size: 15px; }
   .header_cont span {
-    color: #888882; }
+    color: #888882;
+    font-family: 'GothamProlight' , sans-serif;
+    font-size: 14px; }
 
 .call_button {
   box-sizing: border-box;
-  width: 186px;
-  height: 44px;
-  padding: 19px 63px;
+  width: 228px;
+  height: 49px;
+  padding: 21px 27px;
   border-radius: 48px;
   position: relative;
-  top: 38px;
+  top: 20px;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
-  background-color: #e71818; }
+  background-color: #e71818;
+  display: inline-block;
+  line-height: 2px;
+  font-family: 'Calibri';
+  font-weight: bold; }
 
 .call_button:before {
   content: '';
@@ -121,8 +127,8 @@ nav {
   width: 50px;
   background-image: url(../img/icons/phone_icon.png);
   height: 50px;
-  left: 26px;
-  top: 3px;
+  left: 21px;
+  top: -4px;
   background-position: 0 17px;
   background-repeat: no-repeat; }
 
@@ -226,7 +232,7 @@ nav {
 
 .wrapper {
   background-image: url(../img/main_photo.jpg);
-  height: 11000px;
+  height: 6977px;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100%; }
@@ -300,7 +306,7 @@ hr {
   outline: none; }
 
 #sets {
-  min-height: 944px;
+  max-height: 944px;
   position: relative;
   top: -39px;
   width: 100%; }
@@ -312,8 +318,8 @@ hr {
   left: 0;
   background-image: url(../img/first_set.jpg);
   background-repeat: no-repeat;
-  background-position: center -9.5px;
-  background-size: 100%; }
+  background-position: center 0.5px;
+  background-size: contain; }
   .set:nth-child(1) .set_text {
     max-width: 472px;
     margin: 0 auto;
@@ -360,7 +366,7 @@ hr {
   min-height: 473px;
   background-image: url(../img/second_set.jpg);
   background-repeat: no-repeat;
-  background-size: 50.6%; }
+  background-size: contain; }
   .set:nth-child(2) .set_cont {
     max-width: 596px;
     position: relative;
@@ -435,7 +441,7 @@ hr {
   min-height: 473px;
   background-image: url(../img/third_set.jpg);
   background-repeat: no-repeat;
-  background-size: 50.5%; }
+  background-size: contain; }
   .set:nth-child(3) .set_text {
     max-width: 469px;
     position: relative;
@@ -479,5 +485,84 @@ hr {
       left: -27px;
       top: 9%;
       background-color: #e71818; }
+
+#partners {
+  position: relative;
+  top: -38px;
+  background-color: #fff;
+  padding-top: 101px;
+  padding-bottom: 143px; }
+  #partners .part_cont {
+    max-width: 1327px;
+    margin: 0 auto;
+    position: relative; }
+    #partners .part_cont h2 {
+      text-align: center;
+      font-size: 47px;
+      box-sizing: border-box;
+      padding-top: 56px;
+      font-family: 'Gotham Pro light';
+      text-transform: uppercase;
+      font-weight: lighter;
+      position: relative;
+      letter-spacing: 3px;
+      height: 274px;
+      background-image: url(../img/icons/search_symb.png);
+      background-position: center -2px;
+      background-repeat: no-repeat;
+      margin-bottom: 3px; }
+    #partners .part_cont h2:before {
+      content: '';
+      display: inline-block;
+      width: 124px;
+      position: absolute;
+      height: 2px;
+      background-color: #d9d9d9;
+      top: 137px;
+      margin-left: 4px; }
+    #partners .part_cont h2:after {
+      content: '';
+      display: inline-block;
+      width: 124px;
+      position: absolute;
+      height: 2px;
+      background-color: #d9d9d9;
+      top: 137px;
+      margin-left: -131px; }
+    #partners .part_cont .nm {
+      margin-left: -23px; }
+    #partners .part_cont .part {
+      display: inline-block;
+      width: 206px;
+      vertical-align: text-top;
+      margin-right: 81px;
+      text-align: center;
+      box-sizing: border-box; }
+      #partners .part_cont .part:last-child {
+        margin-right: -107px; }
+      #partners .part_cont .part .part_text {
+        padding-left: 20px;
+        font-family: "calibri";
+        padding-top: 30px;
+        line-height: 19px; }
+
+.someh {
+  position: relative; }
+  .someh .ll {
+    position: absolute;
+    display: inline-block;
+    width: 200%;
+    height: 2px;
+    right: 72%;
+    top: 137px;
+    background-color: #f6f6f6; }
+  .someh .rl {
+    position: absolute;
+    display: inline-block;
+    width: 200%;
+    height: 2px;
+    left: 72%;
+    top: 137px;
+    background-color: #f6f6f6; }
 
 /*# sourceMappingURL=style.css.map */

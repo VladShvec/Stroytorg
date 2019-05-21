@@ -117,33 +117,39 @@ font-family: 'Gotham Pro black';
     }
             span{
             color: #888882;
+             font-family: 'GothamProlight' , sans-serif;
+                font-size: 14px;
         }
 }
  .call_button{
-    box-sizing: border-box;
-    width: 186px;
-    height: 44px;
-    padding: 19px 63px;
-    border-radius: 48px;
-    position: relative;
-    top: 38px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-  background-color: #e71818; 
+box-sizing: border-box;
+width: 228px;
+height: 49px;
+padding: 21px 27px;
+border-radius: 48px;
+position: relative;
+top: 20px;
+color: #fff;
+font-size: 15px;
+text-align: center;
+background-color: #e71818;
+display: inline-block;
+line-height: 2px;
+font-family: 'Calibri';
+font-weight: bold;
 }
  .call_button{
         &:before{
-    content: '';
-    display: inline-block;
-    position: absolute;
-    width: 50px;
-    background-image: url(../img/icons/phone_icon.png);
-    height: 50px;
-    left: 26px;
-    top: 3px;
-    background-position: 0 17px;
-    background-repeat: no-repeat;
+content: '';
+display: inline-block;
+position: absolute;
+width: 50px;
+background-image: url(../img/icons/phone_icon.png);
+height: 50px;
+left: 21px;
+top: -4px;
+background-position: 0 17px;
+background-repeat: no-repeat;
 }
     } 
 .main_slider{
@@ -258,7 +264,7 @@ bottom: 88px;
 }
 .wrapper{
     background-image: url(../img/main_photo.jpg);
-    height: 11000px;
+    height: 6977px;
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 100%;

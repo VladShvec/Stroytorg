@@ -59,7 +59,8 @@ nav{
     margin-top: 29px;
     li{
     display: inline-block;
-    font-family: 'Gotham Pro medium';
+    font-family: 'Gotham Pro';
+    font-weight: 500;
     position: relative;
     margin-right: 36px;
     text-transform: uppercase;
@@ -99,36 +100,39 @@ nav{
     }    
 }  
  .header_cont{
-    display: inline-block;
-    position: relative;
-    float: right;
-    right: 5px;
-    width: 249px;
-    top: 22px;
+display: inline-block;
+position: relative;
+float: right;
+right: 5px;
+width: 249px;
+top: 20px;
     .cont {
         display: inline-block;
         a:first-child{
-font-family: 'Gotham Pro black';
-    color: #fff;
-    font-size: 15px;
+color: #fff;
+font-size: 15px;
+font-family: 'TimesNewRomanPSMT';
+font-weight: 400;
+letter-spacing: 0.2px;
             
         }
 
     }
             span{
             color: #888882;
-             font-family: 'GothamProlight' , sans-serif;
-                font-size: 14px;
+font-family: 'Gotham Pro';
+font-size: 12.6px;
+font-weight: 300;
         }
 }
  .call_button{
 box-sizing: border-box;
 width: 228px;
-height: 49px;
+height: 52px;
 padding: 21px 27px;
 border-radius: 48px;
 position: relative;
-top: 20px;
+top: 21px;
 color: #fff;
 font-size: 15px;
 text-align: center;
@@ -146,8 +150,8 @@ position: absolute;
 width: 50px;
 background-image: url(../img/icons/phone_icon.png);
 height: 50px;
-left: 21px;
-top: -4px;
+left: 22px;
+top: -1px;
 background-position: 0 17px;
 background-repeat: no-repeat;
 }

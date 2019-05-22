@@ -53,7 +53,7 @@ nav {
   margin-top: 29px; }
   .main_menu li {
     display: inline-block;
-    font-family: 'Gotham Pro medium';
+    font-weight: 500;
     position: relative;
     margin-right: 36px;
     text-transform: uppercase;
@@ -91,26 +91,28 @@ nav {
   float: right;
   right: 5px;
   width: 249px;
-  top: 22px; }
+  top: 20px; }
   .header_cont .cont {
     display: inline-block; }
     .header_cont .cont a:first-child {
-      font-family: 'Gotham Pro black';
       color: #fff;
-      font-size: 15px; }
+      font-size: 15px;
+      font-family: 'TimesNewRomanPSMT';
+      font-weight: 400;
+      letter-spacing: 0.2px; }
   .header_cont span {
     color: #888882;
-    font-family: 'GothamProlight' , sans-serif;
-    font-size: 14px; }
+    font-size: 12.6px;
+    font-weight: 300; }
 
 .call_button {
   box-sizing: border-box;
   width: 228px;
-  height: 49px;
+  height: 52px;
   padding: 21px 27px;
   border-radius: 48px;
   position: relative;
-  top: 20px;
+  top: 21px;
   color: #fff;
   font-size: 15px;
   text-align: center;
@@ -127,8 +129,8 @@ nav {
   width: 50px;
   background-image: url(../img/icons/phone_icon.png);
   height: 50px;
-  left: 21px;
-  top: -4px;
+  left: 22px;
+  top: -1px;
   background-position: 0 17px;
   background-repeat: no-repeat; }
 
@@ -148,14 +150,14 @@ nav {
       color: #fff;
       top: 213px;
       font-size: 14px;
-      font-family: 'Gotham Pro black';
+      font-weight: 900;
       text-transform: uppercase;
       letter-spacing: -0.5px; }
     .main_slider .cont_sl h1 {
       top: 30.9%;
       left: 0;
       position: relative;
-      font-family: 'Gotham Pro black';
+      font-weight: 900;
       font-size: 78px;
       width: 498px;
       letter-spacing: -1.69px;
@@ -184,7 +186,7 @@ nav {
   line-height: 44px;
   position: relative;
   border-radius: 20px;
-  font-family: "calibri";
+  font-family: 'Calibri';
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold; }
@@ -265,7 +267,8 @@ html, body {
   height: 100%;
   position: relative;
   background: #ffffff;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: 'Gotham Pro'; }
 
 a {
   outline: none;
@@ -344,8 +347,7 @@ hr {
       margin-bottom: 34px; }
   .set:nth-child(1) h3 {
     font-size: 39px;
-    font-weight: 400;
-    font-family: 'Gotham Pro light';
+    font-weight: 300;
     letter-spacing: -0.3px;
     position: relative;
     right: -26px; }
@@ -377,7 +379,7 @@ hr {
       top: -26px;
       left: 3px; }
     .set:nth-child(2) .set_cont h3 {
-      font-family: 'Gotham Pro black';
+      font-weight: 900;
       color: #fff;
       font-size: 38px;
       letter-spacing: 0px; }
@@ -391,11 +393,10 @@ hr {
       background-repeat: no-repeat;
       margin-bottom: 48px; }
       .set:nth-child(2) .set_cont .border p {
-        font-family: 'Gotham Pro black';
         text-align: center;
         line-height: 134px;
         font-size: 57px;
-        font-weight: bold;
+        font-weight: 900;
         letter-spacing: -6px;
         padding-top: 7px;
         color: #fff; }
@@ -458,7 +459,7 @@ hr {
     .set:nth-child(3) .set_list li {
       color: #fff;
       margin-bottom: 11px;
-      font-family: "calibri";
+      font-family: 'Calibri';
       font-size: 17px; }
       .set:nth-child(3) .set_list li:before {
         content: '';
@@ -470,8 +471,7 @@ hr {
         margin-right: 6px; }
   .set:nth-child(3) h3 {
     font-size: 39px;
-    font-weight: 400;
-    font-family: 'Gotham Pro light';
+    font-weight: 300;
     letter-spacing: -0.3px;
     position: relative;
     right: -26px;
@@ -501,9 +501,8 @@ hr {
       font-size: 47px;
       box-sizing: border-box;
       padding-top: 56px;
-      font-family: 'Gotham Pro light';
       text-transform: uppercase;
-      font-weight: lighter;
+      font-weight: 300;
       position: relative;
       letter-spacing: 3px;
       height: 274px;
@@ -542,7 +541,7 @@ hr {
         margin-right: -107px; }
       #partners .part_cont .part .part_text {
         padding-left: 20px;
-        font-family: "calibri";
+        font-family: 'Calibri';
         padding-top: 30px;
         line-height: 19px; }
 

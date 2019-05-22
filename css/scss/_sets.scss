@@ -42,8 +42,7 @@
     } 
     h3{
             font-size: 39px;
-    font-weight: 400;
-    font-family: 'Gotham Pro light';
+    font-weight: 300;
     letter-spacing: -0.3px;
      position: relative;
     right: -26px;
@@ -79,7 +78,7 @@
             left: 3px;
         }
         h3{
-    font-family: 'Gotham Pro black';
+    font-weight: 900;        
     color: #fff;
     font-size: 38px;
     letter-spacing: 0px;
@@ -94,11 +93,10 @@
     background-repeat: no-repeat;
             margin-bottom: 48px;
             p{
-                font-family: 'Gotham Pro black';
     text-align: center;
     line-height: 134px;
     font-size: 57px;
-    font-weight: bold;
+    font-weight:900;
     letter-spacing: -6px;
     padding-top: 7px;
     color: #fff;
@@ -174,7 +172,7 @@
         li{
     color: #fff;
     margin-bottom: 11px;
-    font-family: "calibri";
+  font-family: 'Calibri';
     font-size: 17px;
             &:before{
     content: '';
@@ -190,8 +188,7 @@ margin-right: 6px;
     }    
     h3{
             font-size: 39px;
-    font-weight: 400;
-    font-family: 'Gotham Pro light';
+    font-weight: 300;
     letter-spacing: -0.3px;
      position: relative;
     right: -26px;
